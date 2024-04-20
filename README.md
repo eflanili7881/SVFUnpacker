@@ -1,5 +1,5 @@
 # SVFUnpacker - Windows
-It lets you unpack multiple SVFs in one go. Currently, it doesn't have directory recursion. If it's necessary, you can write in the comments.
+It lets you unpack multiple SVFs in one go. Currently, it doesn't have directory recursion.
 
 ## Credits
 - Me for writing script.
