@@ -3,7 +3,7 @@ It lets you unpack multiple SVFs in one go. Currently, it doesn't have directory
 
 ## Credits
 - Me for writing script.
-- G. Vollant (https://github.com/gvollant) for SmartVersion's smv.exe binary (https://github.com/gvollant/smartversion).
+- Gilles Vollant (https://github.com/gvollant) for SmartVersion's smv.exe binary (https://github.com/gvollant/smartversion).
 
 ## What does this script do?
 This script expands all of your SVF files in one go. I primarily developed this script for unpacking SVF patches for MSDN ISO files. That's why script says SourceISO in itself. But you can use this script in multiple areas.
