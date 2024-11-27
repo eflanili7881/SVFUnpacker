@@ -25,5 +25,5 @@ So, equation is like this:
 | en_windows_vista_x64_dvd_x12-40712.iso (3.53GB) | [tr-tr]_tr_windows_vista_x64_dvd_x12-61213.svf (164.09MB) | tr_windows_vista_x64_dvd_x12-61213.iso (3.18GB) |
 
 ## Troubleshooting
-### Some files say "bad checksum" after expansion
+### Some files say "error detected: bad checksum" after expansion
 This may indicate that your downloaded source image is incorrect/corrupt or worse thing is your RAM/(-s) is/(are) defective. On that situation, find broken addresses via Memtest 86 or another software, add these addresses to BCD on Windows to prevent that addresses used by your system.
