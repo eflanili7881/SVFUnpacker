@@ -12,7 +12,7 @@ This script expands all of your SVF files in one go. I primarily developed this 
 - Fill required areas.
 - See the script does it's magic. Here's an example when I'm unpacking Windows 7 Ultimate build 7600 patches:
 
-  ![image](https://github.com/osmankovan123/SVFUnpacker/assets/44976117/78fbb519-2759-48e9-8ec5-d249b8650f81)
+  ![image](./pictures/324200780-78fbb519-2759-48e9-8ec5-d249b8650f81.png)
 
 ## What is SVF?
 You can think SVF is small patch for a get another file that has very similar content compared to source file, but that file has some differences against source file. This file contains differences between source file against target file and target file's metadata. Source file **MUST** have correct checksum for get correct target file via SVF.
