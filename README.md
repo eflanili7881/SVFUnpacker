@@ -51,9 +51,9 @@ You can fix this by verifying that's your image is downloaded properly or findin
 ### filename : (fullPathToTheSourceFileThat'sMissing)
 ### message : The system cannot find the file specified.
 
-This indicates source file's:
-- Exists where you want to give source file variable, but you supplied wrong path to source file variable.
-- Missing from given location to source file variable.
-- Contents are same as it should, but it's name is different from name that's inside of SVF file.
+This indicates:
+- Source file is exist where you want to give source file variable, but you supplied wrong path to source file variable.
+- Source file is missing from given location to source file variable.
+- Source file's contents are same as it should, but it's name is different from name that's inside of SVF file.
 
 You can fix this by downloading/moving/renaming source file to path that you supplied to source file variable or changing path that's supplied to source file variable to right one.
