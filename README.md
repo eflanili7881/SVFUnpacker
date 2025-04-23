@@ -39,14 +39,21 @@ So, equation is like this:
 | en_windows_vista_x64_dvd_x12-40712.iso (3.53GB) | [tr-tr]_tr_windows_vista_x64_dvd_x12-61213.svf (164.09MB) | tr_windows_vista_x64_dvd_x12-61213.iso (3.18GB) |
 
 ## Troubleshooting
-### Some files say "error detected: bad checksum" after expansion
-This may indicate that your downloaded source image is incorrect/corrupt or worse thing is your RAM/(-s) is/(are) defective. On that situation, find broken addresses via PassMark Memtest86 or another memory error detecting software, add these addresses to BCD on Windows to prevent that addresses used by your system.
+### Some files say "error detected: bad checksum"
+
+This indicates:
+- That your downloaded source image is incorrect/corrupt.
+- Or worse thing is your RAM/(-s) is/(are) defective.
+
+You can fix this by verifying that's your image is downloaded properly or finding broken addresses via PassMark Memtest86 or another memory error detecting software, adding these addresses to BCD on Windows to prevent that addresses used by your system.
 
 ### Some files say "error detected: IO Error"
 ### filename : (fullPathToTheSourceFileThat'sMissing)
 ### message : The system cannot find the file specified.
-This indicates source file is:
-- missing from given location to source file variable.
-- contents are same as it should, but it's name is different from name that's inside of SVF file.
 
-You can fix this by downloading/moving/renaming source file to path that you supplied to source file variable.
+This indicates source file's:
+- Exists where you want to give source file variable, but you supplied wrong path to source file variable.
+- Missing from given location to source file variable.
+- Contents are same as it should, but it's name is different from name that's inside of SVF file.
+
+You can fix this by downloading/moving/renaming source file to path that you supplied to source file variable or changing path that's supplied to source file variable to right one.
