@@ -10,6 +10,20 @@ This script expands all of your SVF files in one go. I primarily developed this 
 
 ## Instruction
 - Fill required areas.
+  - Enter smv.exe binary path.
+    - The file path that's smv.exe.
+      - Binary name doesn't need to be smv.exe. Just to be sure content of file is identical to smv.exe.
+      - You don't need to enter *"*'s if path has spaces in it.
+  - Enter SVF path.
+    - The folder path that contains *.svf files.
+      - Currently, script not support extract *.svf's from multiple folders. It'll be implemented.
+      - You don't need to enter *"*'s if path has spaces in it.
+  - Enter SourceISO path.
+    - The folder path that contains source *.iso files.
+      - You don't need to enter *"*'s if path has spaces in it.
+  - Enter DestinationDIR path.
+    - The folder path where you're gonna expand target ISO's.
+      - You don't need to enter *"*'s if path has spaces in it.
 - See the script does it's magic. Here's an example when I'm unpacking Windows 7 Ultimate build 7600 patches:
 
   ![image](./pictures/324200780-78fbb519-2759-48e9-8ec5-d249b8650f81.png)
@@ -26,4 +40,4 @@ So, equation is like this:
 
 ## Troubleshooting
 ### Some files say "error detected: bad checksum" after expansion
-This may indicate that your downloaded source image is incorrect/corrupt or worse thing is your RAM/(-s) is/(are) defective. On that situation, find broken addresses via Memtest 86 or another software, add these addresses to BCD on Windows to prevent that addresses used by your system.
+This may indicate that your downloaded source image is incorrect/corrupt or worse thing is your RAM/(-s) is/(are) defective. On that situation, find broken addresses via PassMark Memtest86 or another memory error detecting software, add these addresses to BCD on Windows to prevent that addresses used by your system.
