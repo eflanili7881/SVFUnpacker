@@ -45,7 +45,7 @@ This indicates:
 - That your downloaded source image is incorrect/corrupt.
 - Or worse thing is your RAM/(-s) is/(are) defective.
 
-You can fix this by verifying that's your image is downloaded properly or finding broken addresses via PassMark Memtest86 or another memory error detecting software, adding these addresses to BCD on Windows to prevent that addresses used by your system.
+You can fix this by verifying your desired source file is downloaded properly or finding broken addresses via PassMark Memtest86 or another memory error detecting software, adding these addresses to BCD on Windows to prevent that addresses used by your system.
 
 ### Some files say "error detected: IO Error"
 ### filename : (fullPathToTheSourceFileThat'sMissing)
@@ -53,7 +53,9 @@ You can fix this by verifying that's your image is downloaded properly or findin
 
 This indicates:
 - Source file is exist where you want to give source file variable, but you supplied wrong path to source file variable.
+  - In example, your file is inside on **X:\path1**, but you entered **X:\path2** to source file variable.
 - Source file is missing from given location to source file variable.
 - Source file's contents are same as it should, but it's name is different from name that's inside of SVF file.
+  - In example, file name that's inside of SVF file that you want to expand to full file is **X.iso**, but source file name is **Y.iso** and file contents are identical to the hash that's inside on SVF file that you want to expand to full file.
 
 You can fix this by downloading/moving/renaming source file to path that you supplied to source file variable or changing path that's supplied to source file variable to right one.
