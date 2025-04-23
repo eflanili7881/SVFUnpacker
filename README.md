@@ -48,4 +48,5 @@ This may indicate that your downloaded source image is incorrect/corrupt or wors
 This indicates source file is:
 - missing from given location to source file variable.
 - contents are same as it should, but it's name is different from name that's inside of SVF file.
+
 You can fix this by downloading/moving/renaming source file to path that you supplied to source file variable.
