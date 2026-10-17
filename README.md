@@ -17,7 +17,7 @@ This script expands all of your SVF files in one go. I primarily developed this 
   - Enter SVF path.
     - The folder path that contains *.svf files.
       - Currently, script not support extract *.svf's from multiple folders. It'll be implemented.
-      - You don't need to enter **"**'s if path has spaces in it.
+      - Currently, script not support extract *.svf's from folder paths that contains spaces. It'll be fixed in future release.
   - Enter SourceISO path.
     - The folder path that contains source *.iso files.
       - You don't need to enter **"**'s if path has spaces in it.
